@@ -7,15 +7,9 @@ export default {
     input: './index.js',
     output: [
         {
-            file: './src/cjs/bundle.cjs.js',
+            file: 'bundle.js',
             format: 'cjs',
-            globals: {
-                winston: 'winston'
-              }
-        },
-        {
-            file: './src/esm/bundle.esm.js',
-            format: 'esm',
+            exports: 'default',
             globals: {
                 winston: 'winston'
               }

@@ -7,5 +7,4 @@ src/package.json
 src/package-lock.json
 src/cjs
 node_modules
-rollup.config.js
 
